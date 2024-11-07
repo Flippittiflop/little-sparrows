@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://littlesparrows.co.za/sitemap.xml
