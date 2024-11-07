@@ -1,0 +1,34 @@
+version: 0.2
+
+env:
+  variables:
+    NODE_ENV: production
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 18
+    commands:
+      - npm ci
+
+  build:
+    commands:
+      - echo "Building the application..."
+      - npm run build
+
+  post_build:
+    commands:
+      # Upload to S3
+      - aws s3 sync out/ s3://${AWS_S3_BUCKET}/ --delete
+      # Invalidate CloudFront cache
+      - aws cloudfront create-invalidation --distribution-id ${CLOUDFRONT_DISTRIBUTION_ID} --paths "/*"
+
+artifacts:
+  base-directory: out
+  files:
+    - '**/*'
+
+cache:
+  paths:
+    - 'node_modules/**/*'
+    - '.next/cache/**/*'
