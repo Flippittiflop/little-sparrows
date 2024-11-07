@@ -10,28 +10,6 @@
         "Language development focus",
         "Motor skills development"
       ]
-    },
-    {
-      "title": "Preschool Program (3-4 years)",
-      "description": "An engaging curriculum that prepares children for school through structured play and learning activities.",
-      "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=800&auto=format&fit=crop&q=60",
-      "features": [
-        "Pre-reading and writing skills",
-        "Basic numeracy",
-        "Arts and crafts",
-        "Social development"
-      ]
-    },
-    {
-      "title": "Pre-K Program (4-5 years)",
-      "description": "Advanced preparation for kindergarten with focus on academic and social readiness.",
-      "image": "https://images.unsplash.com/photo-1597248374161-426f0d6d2fc9?w=800&auto=format&fit=crop&q=60",
-      "features": [
-        "Reading readiness",
-        "Mathematical concepts",
-        "Science exploration",
-        "Social skills and independence"
-      ]
     }
   ]
 }

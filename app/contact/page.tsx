@@ -102,9 +102,9 @@ export default function Contact() {
                   <div>
                     <p className="font-medium">Address</p>
                     <p className="text-muted-foreground">
-                      123 Education Lane
+                      32 Fisant Ave, Fourways
                       <br />
-                      Learning City, LC4 5ED
+                      Sandton, 2191, South Africa
                     </p>
                   </div>
                 </div>
@@ -112,7 +112,7 @@ export default function Contact() {
                   <Phone className="mt-1 h-5 w-5 text-primary" />
                   <div>
                     <p className="font-medium">Phone</p>
-                    <p className="text-muted-foreground">+44 (0) 123 456 7890</p>
+                    <p className="text-muted-foreground">+27 105 411 522</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
@@ -120,7 +120,7 @@ export default function Contact() {
                   <div>
                     <p className="font-medium">Email</p>
                     <p className="text-muted-foreground">
-                      hello@littlesparrows.edu
+                      info@littlesparrows.co.za
                     </p>
                   </div>
                 </div>
@@ -129,7 +129,7 @@ export default function Contact() {
                   <div>
                     <p className="font-medium">Hours</p>
                     <p className="text-muted-foreground">
-                      Monday - Friday: 7:30 AM - 6:00 PM
+                      Monday - Friday: 6:30 AM - 6:00 PM
                       <br />
                       Saturday - Sunday: Closed
                     </p>
@@ -142,7 +142,7 @@ export default function Contact() {
               <h2 className="text-2xl font-bold">Location</h2>
               <div className="mt-4 aspect-video overflow-hidden rounded-lg">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.7425033474456!2d-0.12802492275901915!3d51.50731067181426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604c7c7eb9be3%3A0x3918653583725b56!2sLondon%20Eye!5e0!3m2!1sen!2suk!4v1704718664317!5m2!1sen!2suk"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15367.171233470079!2d27.98422411050052!3d-26.031891104031427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e957737ee2f6f23%3A0xf3ca48ad929e5a03!2sLittle%20Sparrows%20Academy!5e1!3m2!1sen!2suk!4v1731006488661!5m2!1sen!2suk"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}

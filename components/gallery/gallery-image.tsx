@@ -40,12 +40,12 @@ export function GalleryImage({ image }: GalleryImageProps) {
             className="object-cover"
           />
         </div>
-        <div className="p-4">
-          <h3 className="text-2xl font-semibold">{image.title}</h3>
-          <p className="mt-2 text-base text-muted-foreground">
-            {image.description}
-          </p>
-        </div>
+        {/*<div className="p-4">*/}
+        {/*  <h3 className="text-2xl font-semibold">{image.title}</h3>*/}
+        {/*  <p className="mt-2 text-base text-muted-foreground">*/}
+        {/*    {image.description}*/}
+        {/*  </p>*/}
+        {/*</div>*/}
       </DialogContent>
     </Dialog>
   );

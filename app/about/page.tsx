@@ -44,7 +44,7 @@ export default function About() {
           </div>
           <div className="relative aspect-video overflow-hidden rounded-lg">
             <Image
-              src="https://images.unsplash.com/photo-1567057419565-4349c49d8a04?q=80&w=1887"
+              src="https://images.unsplash.com/photo-1535726858289-9ffe2dff6f52?q=80&w=1887"
               alt="Children learning"
               fill
               className="object-cover"

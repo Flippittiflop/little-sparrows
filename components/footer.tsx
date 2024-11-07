@@ -25,15 +25,15 @@ export function Footer() {
             <div className="mt-4 space-y-2">
               <div className="flex items-center space-x-2">
                 <MapPin className="h-4 w-4" />
-                <span className="text-sm">123 School Street, City, State</span>
+                <span className="text-sm">32 Fisant Ave, Fourways</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Phone className="h-4 w-4" />
-                <span className="text-sm">(555) 123-4567</span>
+                <span className="text-sm">+27 105 411 522</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="h-4 w-4" />
-                <span className="text-sm">info@littlesparrows.com</span>
+                <span className="text-sm">info@littlesparrows.co.za</span>
               </div>
             </div>
           </div>
